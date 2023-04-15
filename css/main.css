@@ -1,0 +1,152 @@
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+.box a > .box{
+  position: absolute;
+  width: 241px;
+  height: 21px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+}
+
+.box p > .box{
+  position: absolute;
+  width: 972px;
+  height: 95px;
+  
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  
+  color: #000000;
+  
+}
+
+.grid-container {
+  display: grid;
+  height: 252px;
+  width: 470px;
+  grid-template-columns: auto auto auto;
+  
+  background-color: #FFFFFF;
+  padding: 20px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  height: 252px;
+  width: 470px;
+  padding: 20px 0;
+  font-size: 24px;
+  line-height: 19px;
+  line-height: 100%;
+
+  vertical-align: top;
+}
+
+.box {
+  background-color: #EFEFEF;
+  width: 1510px;
+  height: 210px;
+  padding: 50px;
+  margin: 20px;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: center;
+  line-height: 19px;
+  line-height: 100%;
+
+  vertical-align: top;
+}
+
+.logo {
+  text-align: center;
+ 
+}
+.gird .url {
+  position: absolute;
+  width: 128px;
+  height: 128px;
+}
+
+.gird .p {
+  position: absolute;
+  width: 326px;
+  height: 134px;
+  
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  
+  color: #000000;
+  top: 1406px;
+  left: 1463px;
+}
+
+.sidebar {
+  position: absolute;
+  width: 150px;
+  height: 935px;
+  background: #191718;
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+}
+
+.sidebar a {
+  display: block;
+  color: #FFFFFF;
+  padding: 16px;
+  text-decoration: none;
+}
+ 
+.sidebar a.active {
+  background-color: #5C5C5C;
+  color: white;
+}
+
+.sidebar a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+div.content {
+  margin-left: 200px;
+  height: 935px;
+  width: 1768px;
+
+}
+
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
+}
+
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  
+}
